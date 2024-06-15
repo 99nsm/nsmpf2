@@ -149,7 +149,8 @@ $(document).ready(function(){
                 transform:` rotateY(-90deg) translateZ(${($('.mb_side').eq(i).width())/2}px)`
             })
         }
-    },10)
+    },5)
+
     let mb_count= 0;
         //이미지 호버
         $('.mb_imgbox').hover(function(){
