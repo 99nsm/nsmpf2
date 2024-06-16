@@ -29,7 +29,7 @@ $(document).ready(function(){
                     transform:` rotateY(-90deg) translateZ(${($('.main_side').eq(i).width())/2}px)`
                 })
             }
-        },300)
+        },500)
 
         $('.main_item').hover(function(){
             $('.main_imgbox').eq($(this).index()).css({transform:'rotateY(40deg)'})
