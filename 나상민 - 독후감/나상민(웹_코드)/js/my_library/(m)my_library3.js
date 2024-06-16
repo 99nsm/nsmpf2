@@ -33,7 +33,7 @@ $(document).ready(function(){
             $(`.main_side`).css({
                 transform:` rotateY(-90deg) translateZ(${($('.main_side').width())/2}px)`
             })
-        },500)
+        },1000)
         //링크 연결
             $('.main_box').click(function(){
                 location.href=`${ITEM_LIST[(num)%item_length].link}`

@@ -282,7 +282,7 @@ $(document).ready(function(){
                 transform:` rotateY(-90deg) translateZ(${($('.sec4_side').eq(i).width())/2}px)`
             })
         }
-    },500)
+    },1000)
 
     //두번째 페이지로 보내기
     $('.sec4_plus').click(function(){
