@@ -106,7 +106,7 @@ $(document).ready(function(){
                     transform:` rotateY(-90deg) translateZ(${($('.mb_side').eq(i).width())/2}px)`
                 })
             }
-        },10)
+        },500)
         let mb_count= 0;
         $('.mb_imgbox').click(function(){
             if((mb_count)%3==0){

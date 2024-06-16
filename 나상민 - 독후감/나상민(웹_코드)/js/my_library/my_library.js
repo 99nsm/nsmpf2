@@ -149,7 +149,7 @@ $(document).ready(function(){
                 transform:` rotateY(-90deg) translateZ(${($('.mb_side').eq(i).width())/2}px)`
             })
         }
-    },5)
+    },500)
 
     let mb_count= 0;
         //이미지 호버
@@ -282,7 +282,7 @@ $(document).ready(function(){
                 transform:` rotateY(-90deg) translateZ(${($('.sec4_side').eq(i).width())/2}px)`
             })
         }
-    },10)
+    },500)
 
     //두번째 페이지로 보내기
     $('.sec4_plus').click(function(){
