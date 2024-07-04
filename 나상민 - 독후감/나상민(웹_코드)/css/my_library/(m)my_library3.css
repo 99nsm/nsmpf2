@@ -12,6 +12,7 @@
 }
 .main_imgbox{
     width: 100%;
+    perspective: 2000px;
 }
 .main_img{
     position: relative;

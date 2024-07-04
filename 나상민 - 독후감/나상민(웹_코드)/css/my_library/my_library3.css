@@ -17,6 +17,7 @@
     perspective: 1800px;
 }
 .main_imgbox{
+    perspective: 2000px;
     position: absolute;
     left: 15%;
     top: 5%;

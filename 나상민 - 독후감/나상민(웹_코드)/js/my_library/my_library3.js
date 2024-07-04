@@ -36,7 +36,7 @@ $(document).ready(function(){
         },700)
         //링크 연결
             $('.main_box').click(function(){
-                location.href=`${ITEM_LIST[(num)%item_length].link}`
+                window.open(`${ITEM_LIST[(num)%item_length].link}`,`_blank`)
         })
 
         //감상평 연결
